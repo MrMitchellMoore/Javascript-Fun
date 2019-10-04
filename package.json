@@ -1,0 +1,27 @@
+{
+  "name": "javascript-fun",
+  "version": "1.0.0",
+  "description": "Fun with Java-script writing some rookie code makes me feel good. ",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@babel/core": "7.6.2",
+    "@babel/preset-env": "7.6.2",
+    "eslint": "6.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "browser": true,
+      "es6": true
+    }
+  },
+  "keywords": []
+}
